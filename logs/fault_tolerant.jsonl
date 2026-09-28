@@ -1,0 +1,30 @@
+{"time":"2026-09-28T16:32:59.0098063+05:00","level":"INFO","msg":"attempt succeeded","step":1,"tx":"T001","attempt":"Initial","amount":12000}
+{"time":"2026-09-28T16:32:59.0098063+05:00","level":"WARN","msg":"attempt failed","step":2,"tx":"T002","attempt":"Initial","failure":"Network","exception":"NetworkError","action":"Retry after 1s","error":"T002: network failure in Process (Initial)"}
+{"time":"2026-09-28T16:33:00.0107903+05:00","level":"INFO","msg":"attempt succeeded","step":3,"tx":"T002","attempt":"Retry 1","amount":25000}
+{"time":"2026-09-28T16:33:01.2603982+05:00","level":"INFO","msg":"attempt succeeded","step":4,"tx":"T003","attempt":"Initial","amount":8000}
+{"time":"2026-09-28T16:33:01.2629062+05:00","level":"WARN","msg":"attempt failed","step":5,"tx":"T004","attempt":"Initial","failure":"Timeout","exception":"TimeoutError","action":"Retry after 1s","error":"T004: timeout in Process (Initial)"}
+{"time":"2026-09-28T16:33:02.2701445+05:00","level":"WARN","msg":"attempt failed","step":6,"tx":"T004","attempt":"Retry 1","failure":"Timeout","exception":"TimeoutError","action":"Retry after 2s","error":"T004: timeout in Process (Retry 1)"}
+{"time":"2026-09-28T16:33:04.2705037+05:00","level":"INFO","msg":"attempt succeeded","step":7,"tx":"T004","attempt":"Retry 2","amount":45000}
+{"time":"2026-09-28T16:33:04.2705037+05:00","level":"INFO","msg":"attempt succeeded","step":8,"tx":"T005","attempt":"Initial","amount":13000}
+{"time":"2026-09-28T16:33:04.2705037+05:00","level":"INFO","msg":"checkpoint saved","checkpoint":"CP1","count":5,"total":103000,"ids":["T001","T002","T003","T004","T005"]}
+{"time":"2026-09-28T16:33:04.2705037+05:00","level":"WARN","msg":"attempt failed","step":9,"tx":"T006","attempt":"Initial","failure":"Database","exception":"DatabaseError","action":"Retry after 1s","error":"T006: database failure in Record (Initial)"}
+{"time":"2026-09-28T16:33:05.2720412+05:00","level":"WARN","msg":"attempt failed","step":10,"tx":"T006","attempt":"Retry 1","failure":"Database","exception":"DatabaseError","action":"Retry after 2s","error":"T006: database failure in Record (Retry 1)"}
+{"time":"2026-09-28T16:33:07.2725435+05:00","level":"WARN","msg":"rollback","tx":"T006","to":"CP1","discarded_after_checkpoint":0,"ledger_count":5,"ledger_total":103000}
+{"time":"2026-09-28T16:33:07.2725435+05:00","level":"WARN","msg":"attempt failed","step":11,"tx":"T006","attempt":"Retry 2","failure":"Database","exception":"DatabaseError","action":"Rollback to CP1","error":"T006: database failure in Record (Retry 2)"}
+{"time":"2026-09-28T16:33:07.2744974+05:00","level":"INFO","msg":"attempt succeeded","step":12,"tx":"T007","attempt":"Initial","amount":9000}
+{"time":"2026-09-28T16:33:07.2744974+05:00","level":"WARN","msg":"attempt failed","step":13,"tx":"T008","attempt":"Initial","failure":"Network","exception":"NetworkError","action":"Retry after 1s","error":"T008: network failure in Process (Initial)"}
+{"time":"2026-09-28T16:33:08.2751864+05:00","level":"INFO","msg":"attempt succeeded","step":14,"tx":"T008","attempt":"Retry 1","amount":31000}
+{"time":"2026-09-28T16:33:08.2751864+05:00","level":"INFO","msg":"attempt succeeded","step":15,"tx":"T009","attempt":"Initial","amount":15000}
+{"time":"2026-09-28T16:33:08.2751864+05:00","level":"WARN","msg":"attempt failed","step":16,"tx":"T010","attempt":"Initial","failure":"Timeout","exception":"TimeoutError","action":"Retry after 1s","error":"T010: timeout in Process (Initial)"}
+{"time":"2026-09-28T16:33:09.2771524+05:00","level":"WARN","msg":"attempt failed","step":17,"tx":"T010","attempt":"Retry 1","failure":"Timeout","exception":"TimeoutError","action":"Retry after 2s","error":"T010: timeout in Process (Retry 1)"}
+{"time":"2026-09-28T16:33:11.2776045+05:00","level":"INFO","msg":"attempt succeeded","step":18,"tx":"T010","attempt":"Retry 2","amount":50000}
+{"time":"2026-09-28T16:33:11.2776045+05:00","level":"INFO","msg":"attempt succeeded","step":19,"tx":"T011","attempt":"Initial","amount":6000}
+{"time":"2026-09-28T16:33:11.2776045+05:00","level":"INFO","msg":"checkpoint saved","checkpoint":"CP2","count":10,"total":214000,"ids":["T001","T002","T003","T004","T005","T007","T008","T009","T010","T011"]}
+{"time":"2026-09-28T16:33:11.2782549+05:00","level":"WARN","msg":"attempt failed","step":20,"tx":"T012","attempt":"Initial","failure":"Database","exception":"DatabaseError","action":"Retry after 1s","error":"T012: database failure in Record (Initial)"}
+{"time":"2026-09-28T16:33:12.2790894+05:00","level":"WARN","msg":"attempt failed","step":21,"tx":"T012","attempt":"Retry 1","failure":"Database","exception":"DatabaseError","action":"Retry after 2s","error":"T012: database failure in Record (Retry 1)"}
+{"time":"2026-09-28T16:33:14.2800079+05:00","level":"WARN","msg":"rollback","tx":"T012","to":"CP2","discarded_after_checkpoint":0,"ledger_count":10,"ledger_total":214000}
+{"time":"2026-09-28T16:33:14.2800079+05:00","level":"WARN","msg":"attempt failed","step":22,"tx":"T012","attempt":"Retry 2","failure":"Database","exception":"DatabaseError","action":"Rollback to CP2","error":"T012: database failure in Record (Retry 2)"}
+{"time":"2026-09-28T16:33:14.2807256+05:00","level":"INFO","msg":"attempt succeeded","step":23,"tx":"T013","attempt":"Initial","amount":11000}
+{"time":"2026-09-28T16:33:14.2807256+05:00","level":"INFO","msg":"attempt succeeded","step":24,"tx":"T014","attempt":"Initial","amount":22000}
+{"time":"2026-09-28T16:33:14.2807256+05:00","level":"WARN","msg":"attempt failed","step":25,"tx":"T015","attempt":"Initial","failure":"Network","exception":"NetworkError","action":"Retry after 1s","error":"T015: network failure in Process (Initial)"}
+{"time":"2026-09-28T16:33:15.2815899+05:00","level":"INFO","msg":"attempt succeeded","step":26,"tx":"T015","attempt":"Retry 1","amount":40000}

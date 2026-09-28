@@ -1,0 +1,15 @@
+{"time":"2026-09-28T16:32:59.0060964+05:00","level":"INFO","msg":"transaction processed","tx":"T001","amount":12000}
+{"time":"2026-09-28T16:32:59.0060964+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T002","amount":25000,"failure":"Network","exception":"NetworkError","error":"T002: network failure in Process (Initial)"}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"INFO","msg":"transaction processed","tx":"T003","amount":8000}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T004","amount":45000,"failure":"Timeout","exception":"TimeoutError","error":"T004: timeout in Process (Initial)"}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"INFO","msg":"transaction processed","tx":"T005","amount":13000}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T006","amount":70000,"failure":"Database","exception":"DatabaseError","error":"T006: database failure in Record (Initial)"}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"INFO","msg":"transaction processed","tx":"T007","amount":9000}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T008","amount":31000,"failure":"Network","exception":"NetworkError","error":"T008: network failure in Process (Initial)"}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"INFO","msg":"transaction processed","tx":"T009","amount":15000}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T010","amount":50000,"failure":"Timeout","exception":"TimeoutError","error":"T010: timeout in Process (Initial)"}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"INFO","msg":"transaction processed","tx":"T011","amount":6000}
+{"time":"2026-09-28T16:32:59.0067735+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T012","amount":80000,"failure":"Database","exception":"DatabaseError","error":"T012: database failure in Record (Initial)"}
+{"time":"2026-09-28T16:32:59.0074869+05:00","level":"INFO","msg":"transaction processed","tx":"T013","amount":11000}
+{"time":"2026-09-28T16:32:59.0074869+05:00","level":"INFO","msg":"transaction processed","tx":"T014","amount":22000}
+{"time":"2026-09-28T16:32:59.0074869+05:00","level":"WARN","msg":"transaction failed, continuing","tx":"T015","amount":40000,"failure":"Network","exception":"NetworkError","error":"T015: network failure in Process (Initial)"}

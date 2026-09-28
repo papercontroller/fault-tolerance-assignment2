@@ -1,0 +1,2 @@
+{"time":"2026-09-28T16:32:58.901724+05:00","level":"INFO","msg":"transaction processed","tx":"T001","amount":12000}
+{"time":"2026-09-28T16:32:59.0043644+05:00","level":"ERROR","msg":"processor stopped","tx":"T002","amount":25000,"error":"T002: network failure in Process (Initial)"}
